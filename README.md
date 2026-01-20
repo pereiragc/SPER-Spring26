@@ -4,7 +4,7 @@
 # Class Materials
 
 ## Introductory lecture
-[Download](assets/introductory_lecture.pdf)
+[Download](assets/introductory_class.pdf)
 
 # Syllabus
 
