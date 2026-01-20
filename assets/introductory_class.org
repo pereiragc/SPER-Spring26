@@ -1,0 +1,172 @@
+#+title: Special Project in Econ Research | Spring `26
+#+BEAMER_HEADER_EXTRA: \title[Footer text]{My Long Presentation Title}
+#+BEAMER_THEME: CambridgeUS
+#+STARTUP: beamer
+#+LATEX_CLASS_OPTIONS: [presentation, smaller, handout]
+#+BEAMER_THEME: Boadilla
+#+BEAMER_SHORTTITLE: SPER `Spring26
+#+options: H:2 toc:nil
+#+CITE_EXPORT: csl
+#+LATEX_HEADER: \input{header_beamer.tex}
+
+* Introduction
+** Who am I
+
+- I hold a PhD in Economics from Columbia University
+- Currently work at Graham Capital Management as a Portfolio Analyst
+
+
+** Who are you?
+- Interest in:
+  1. Academia?
+  2. Private sector jobs? Of what kind?
+  3. Policy job?
+     
+* Structure of the course
+
+** Roadmap 
+:PROPERTIES:
+:BEAMER_opt: allowframebreaks
+:END:
+
+  1. Groups are formed -- *deadline: next week (Jan 28)*
+     + if there are ungroupped people by week 3, I will act as central planner
+  2. Pick a few interesting topics you may be interested in writing about
+     + I have listed a few here
+  3. Study the literature on chosen topics and *present to the class* 
+  4. Decide on your own project:
+     + usually an incremental research question starting from the presented papers, replication or methodological tweak
+     + *weeks 2 - 7*, in parallel with topic presentations
+  5. Deliver project plan
+     + a concrete, actionable plan that can be executed in 7 weeks
+     + *deadline: Mar 6th*
+     + (continues $\rightarrow$)
+  6. Execution: results and write-up 
+     + Present progress to class throughout the rest of the course
+     + Preliminary draft due on April 28th
+     + Final write-up due no later than May 8th 
+
+     
+** Roadmap: advice
+- *There is little time*
+- Topic choice
+  + Pick a topic quickly and commit; do not overexplore
+- Literature/topic presentations 
+  + Do not fall into the `earlier literature' trap
+  + Keep in mind whether you have access to relevant data
+- You will need to allocate significant time each week. *You will not be able to 'wing it'*
+- I expect you to pro-actively seek feedback and advice
+  + The best projects so far have been done by groups that sought consistent feedback
+  
+** What constitutes a reasonable project
+
+1. Extension of existing literature
+
+  + Applies same methodology to different (preferably *interesting*) context
+
+  + Different methodology to same question
+
+2. A successful replication of an advanced empirical/computational paper
+
+3. Original ideas are welcome
+
+  + Advice: be modest
+
+** Evaluation
+
+1. Evaluation criteria:
+
+   1. Class participation (20%)
+      - Ability to demonstrate understanding of literatures
+      - Intake of professor / classmate feedback
+
+   2. Final draft quality (80%)
+      
+** Comments on project requirements
+- Needs to be a complete draft with introduction, literature review, methodology, findings and conclusion
+- No requirement in terms of number of words or number of pages
+  - you will get *no points* for adding boilerplate text / adjectives / adverbs
+- Syllabus will be uploaded by next week
+    
+  
+
+* Topics
+
+** Interest rate trends in developed markets
+#+CAPTION: Nominal interest rates in developed markets, 1950s--present
+#+ATTR_LATEX: :width 0.85\textwidth
+[[file:figures/real_interest_rates_dm.pdf]]
+
+- Rose gradually from early 1950s, peaked in early-to-mid 1980s
+- Declining trend since then to historically low levels by 2010s
+- Data sources: FRED (10-Year Real Interest Rate), World Bank, Chicago Fed
+  
+** Are we in still in a secular stagnation world?  
+- Post-GFC world characterized by: low inflation, low growth, low interest rates
+- Academics believed structural / secular shift  drove interest rates down
+  + Population growth / demographic shifts
+    - [cite//b:@eggertssonSecularStagnationOpen2016] 
+  + Financial frictions
+    - [cite//b:@caballeroEquilibriumModelGlobal2008] 
+      
+- Question: are we going back to 2010-2020 equilibrium, or are rates 'higher for longer'?
+  + [cite//b:@holstonMeasuringNaturalRate2017] 
+
+** What are the limits to DMs fiscal capacity?  
+- Large, wartime-like fiscal expansion after 2020 pandemic
+  + subsequent inflation + contractionary monetary policy 
+  + decline in value of government bond stock $\Rightarrow$ loss to bondholders
+- Questions:
+  1. What is the connection between the size of fiscal expansion and current level of rates?
+  2. How much additional fiscal capacity does `dollar dominance' impart into US government?
+  3. How much gov't deficit countercyclicality was / is priced into government yield curves?
+
+- References:
+  + [cite//b:@gomezcramCanTreasuryMarkets2025] 
+  + [cite//b:@jiangFiscalCapacityAsset2023] 
+    
+** The (macro-)economic impact of AI
+- Quantifying AI: labor market impacts
+  + Source of massive white-collar unemployment?
+  + Large productivity gains?
+  + References:
+    - [cite//b:@acemogluSimpleMacroeconomicsAI2025] 
+    - [cite//b:@eloundouGPTsAreGPTs2024] 
+      
+- AI and asset prices
+  + `Magnificent seven' explained bulk of stock market returns in the US over last few years
+  + How much do public and private valuations reflect reasonable fundamentals?
+  + Can such elevated asset prices be justified in general equlibrium?
+    + [cite//b:@caballeroSpeculativeGrowthAI2025] 
+      
+
+* Resources
+** Literature
+- Google scholar is your friend
+- If not doing so already, subscribe to NBER working paper series
+  - A number papers that end up being published in the best journals first show up in NBER
+  - Good for understanding what are hot topics
+  - You can filter by topics of interest
+  
+** Data
+- For macroeconomic data, the St. Louis Fed FRED has plenty of relevant data
+  + API accessible, so AI friendly
+- NYU libraries offer many datasets
+  + Most relevant for financial markets is WRDS
+- Academic papers often have 'replication packages'
+  
+** AI
+- Some words on AI usage
+  + Cursor, claude code, chatbots, workflow managers - all fair game *for experimenting*
+  + AI still clearly lags in writing a cohesive document
+     
+
+
+* Biblio
+
+** Bibliography
+:PROPERTIES:
+:BEAMER_opt: allowframebreaks
+:END:
+
+#+print_bibliography:
