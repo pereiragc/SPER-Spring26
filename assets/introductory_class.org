@@ -1,5 +1,4 @@
 #+title: Special Project in Econ Research | Spring `26
-#+BEAMER_HEADER_EXTRA: \title[Footer text]{My Long Presentation Title}
 #+BEAMER_THEME: CambridgeUS
 #+STARTUP: beamer
 #+LATEX_CLASS_OPTIONS: [presentation, smaller, handout]
@@ -154,13 +153,15 @@
 - NYU libraries offer many datasets
   + Most relevant for financial markets is WRDS
 - Academic papers often have 'replication packages'
+  + Often buried on journal pages and hard to find 
+  + Sometimes these things don't get picked up by google
   
 ** AI
 - Some words on AI usage
-  + Cursor, claude code, chatbots, workflow managers - all fair game *for experimenting*
-  + AI still clearly lags in writing a cohesive document
-     
-
+  + Cursor, claude code, chatbots, workflow managers - all fair game for coding / data manipulation / bouncing ideas
+  + I expect writeups to be almost entirely your work
+    + I don't mind use of AI tools for minor style adjustments / checks
+  + Last class will be a presentation of the final project -- AI cannot present your work for you!
 
 * Biblio
 
