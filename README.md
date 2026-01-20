@@ -3,7 +3,7 @@
 
 # Class Materials
 
-## Introductory lecture
+## Introductory meeting
 [Download](assets/introductory_class.pdf)
 
 # Syllabus
